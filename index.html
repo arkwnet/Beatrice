@@ -3,6 +3,7 @@
 	<head>
 		<title>Beatrice - Online Memo System</title>
 		<meta charset="utf-8">
+		<meta name="robots" content="noindex, nofollow">
 		<link rel="stylesheet" href="css/main.css">
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
@@ -11,10 +12,15 @@
 		<div class="header">
 			<h1>Beatrice</h1>
 			<h2>Online Memo System</h2>
-			<div class="header-save" onclick="save()"><img src="img/save.svg"></div>
+			<div class="header-control">
+				<div class="header-control-button" onclick="save()">
+					<img src="img/save.svg">
+					<p>保存</p>
+				</div>
+			</div>
 		</div>
 		<div class="main">
-			<textarea class="main-textarea"><?php echo $result_array ?></textarea>
+			<textarea class="main-textarea" disabled></textarea>
 		</div>
 	</body>
 </html>
