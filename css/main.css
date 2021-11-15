@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: "メイリオ", "Meiryo", "ＭＳ ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 .header h1 {
 	position: absolute;
 	left: 10px;
-	top: 5px;
+	top: 19px;
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -29,7 +30,7 @@ body {
 .header h2 {
 	position: absolute;
 	left: 10px;
-	top: 26px;
+	top: 7px;
 	font-size: 12px;
 	font-weight: bold;
 }
