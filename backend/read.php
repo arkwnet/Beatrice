@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-	$db_filename = "../beatrice.db";
+	$db_filename = "../database/beatrice.db";
 	if (file_exists($db_filename)) {
 		$db = new SQLite3($db_filename);
 		send_data($db);
